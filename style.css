@@ -43,8 +43,9 @@ header a {
     user-select: none;
     text-decoration: none;
 }
+
 header a:active {
-    color: #ff0
+    color: #fff
 }
 
 .navigation a {
@@ -76,13 +77,24 @@ header a:active {
 }
 
 .navigation a:active {
-    color: #ff0
+    color: #fff;
+}
+
+a[href^="index"]{
+    color: #ff0;
+}
+
+a[href^="#"]{
+    color: #ff0;
 }
 
 main {
     width: 80%;
     padding: 90px 10px 10px;
     color: #fff;
+}
+main h2{
+    color: #ff0;
 }
 
 section {
@@ -101,11 +113,10 @@ footer {
     width: 100%;
     padding: 20px;
     text-align: center;
-    color: #fff;
+    color: #ff0;
     background: rgba(0, 0, 0, 0.7);
 }
 
 footer p:hover {
-    color: #ff0; 
+    color: #fff; 
 }
-
